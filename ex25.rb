@@ -1,25 +1,22 @@
 module Ex25
   # This function will break up words for us
   def Ex25.break_words(stuff)
-    words = stuff.split(' ')
-    return words
+    stuff.split(' ')
   end
 
   # Sorts the words
   def Ex25.sort_words(words)
-    return words.sort
+    words.sort
   end
 
   # Prints the first word after shifting it off
   def Ex25.print_first_word(words)
-    word = words.shift
-    puts word
+    words.shift
   end
 
   # Print the last word after popping it off
   def Ex25.print_last_word(words)
-    word = words.pop
-    puts word
+    words.pop
   end
 
   # Takes in a full sentence and returns the sorted words
